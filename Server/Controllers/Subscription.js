@@ -1,4 +1,4 @@
-import User from "../Models/User.js";
+import User from "../Models/user.js";
 
 export const upgradePlan = async (req, res) => {
     const { userId, plan } = req.body;
