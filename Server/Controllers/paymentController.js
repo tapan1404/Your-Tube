@@ -1,5 +1,5 @@
 import Razorpay from 'razorpay';
-import User from '../Models/User';
+import User from '../Models/user';
 
 // Initialize Razorpay instance
 const razorpay = new Razorpay({
